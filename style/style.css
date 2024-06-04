@@ -1,0 +1,969 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll= smoothly;
+}
+
+/* header */
+header nav {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 8%;
+    align-items: center;
+    background: #ffff;
+    border-bottom: 1px solid #E1E3E7;
+    backdrop-filter: blur(10px);
+}
+
+.btn-nav .btn-login:hover {
+    background-color: #5D5FEF;
+    color: #fff;
+}
+
+.nav-link {
+    display: flex;
+    gap: 0 24px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #131A21;
+    font-size: 16px;
+}
+
+.nav-link li a:hover {
+    color: #4C63ED;
+}
+
+.nav-link #active {
+    color: #4C63ED;
+}
+
+.nav-link li {
+    list-style: none;
+}
+
+#menu-icon {
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.hero {
+    margin-top: 200px;
+    display: flex;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    background-image: url(../assets/hero.png);
+    padding: 0 10% 180px 10%;
+}
+
+.hero h1{
+    font-size: 64px;
+    color: #080C2E;
+}
+
+.hero .main {
+    background-color: #F3F4FF;
+    color: #5D5FEF !important;
+    padding: 0 8px;
+    border-radius: 8px;
+}
+
+.hero p {
+    padding: 16px 0;
+    line-height: 24px;
+    color: #737791;
+    font-size: 16px;
+}
+
+.hero .btn {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 0 18px;
+}
+
+.hero .btn .started {
+    padding: 14px 40px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 14px;
+    background-color: #5D5FEF;
+}
+
+.hero .btn .learn {
+    padding: 14px 40px;
+    background-color: #fff;
+    color: #5D5FEF;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 14px;
+    border: 2px solid #F0F0F0;
+}
+
+.hero .text-content img {
+    margin-right: 4px;
+}
+
+.hero .text-content h5 {
+    background-color: #F3F4FF;
+    width: fit-content;
+    padding: 8px 16px;
+    font-weight: 500;
+    border-radius: 32px;
+    margin: 0 auto 12px auto;
+    border: 1px solid #D6D6FF;
+}
+/* header */
+
+/* main content*/
+
+/* trust company */
+main .trusted-company{
+    margin-top: 140px;
+    padding: 0 10%;
+}
+
+main .trusted-company h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #131A21;
+}
+
+main .trusted-company .img-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px 54px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+/* trust company */
+
+
+/* features */
+main .features {
+    margin-top: 140px;
+    padding: 0 10%;
+}
+
+main .features .text-content {
+    text-align: center;
+}
+
+main .features .text-content p {
+    color: #737791;
+    padding: 16px 0;
+}
+
+main .features .row {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+main .features .card-features {
+    width: 280px;
+    border: 1px solid #E1E3E7;
+    padding: 30px 24px;
+    border-radius: 14px;
+}
+
+main .features .card-features .text-card {
+    padding-top: 24px;
+}
+
+main .features .card-features .text-card p {
+    padding-top: 8px;
+    line-height: 22px;
+    color: #737791;
+}
+
+main .features .card-features .link {
+    padding-top: 30px;
+}
+
+main .features .card-features a {
+    text-decoration: none;
+    color: #5D5FEF;
+    font-weight: 500;
+}
+
+main .features .card-features:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    transition:  0.3s ease;
+}
+
+main .features .text-content h3{
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #F3F4FF;
+    width: fit-content;
+    color: #5D5FEF;   
+    padding: 8px 24px;
+    border-radius: 20px;
+    margin: 0 auto 12px auto;
+    text-transform: uppercase;
+    border: 1px solid #D6D6FF;
+}
+/* features */
+
+
+/* about us */
+main .about-us {
+    margin-top: 140px;
+    padding: 0 10%;
+}
+
+main .about-us .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .about-us .text-content p {
+    color: #737791;
+    padding: 14px 0;
+}
+
+main .about-us .btn a {
+    padding: 14px 40px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 14px;
+    background-color: #5D5FEF;
+}
+
+main .about-us .btn {
+    margin-top: 30px;
+}
+
+main .about-us .text-content h3{
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #F3F4FF;
+    width: fit-content;
+    color: #5D5FEF;
+    margin-bottom: 12px;    
+    padding: 8px 24px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border: 1px solid #D6D6FF;
+}
+/* about us */
+
+/* testimonials */
+main .testimonials {
+    margin-top: 140px;
+    padding: 0 10%;
+}
+
+main .testimonials .text-content {
+    text-align: center;
+}
+
+main .testimonials .text-content p {
+    color: #737791;
+    padding: 14px 0;
+}
+
+main .testimonials .text-content h3{
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #F3F4FF;
+    width: fit-content;
+    color: #5D5FEF;
+    margin: 0 auto 12px auto;    
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: 1px solid #D6D6FF;
+    text-transform: uppercase;
+}
+
+main .testimonials .card {
+    width: 320px;
+    background-color: white;
+    padding: 30px 24px;
+    border-radius: 14px;
+    z-index: -100;
+    position:relative;
+    border: 1px solid #E1E3E7;
+}
+
+main .testimonials .card .profile p {
+    font-size: 14px;
+    color: #737791;
+    padding-top: 4px;
+}
+
+main .testimonials .card .text-card p{
+    line-height: 24px;
+}
+
+main .testimonials .card .profile {
+    display: flex;
+    align-items: center;
+    gap: 0 16px;
+    margin-top: 24px;
+}
+
+main .testimonials .slide-container {
+    width: 100%;
+    padding: 40px 0;
+}
+
+main .testimonials .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    transition:  0.3s ease;
+}
+
+.swiper-pagination {
+    padding-top: -100px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #F3F4FF;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #5D5FEF;
+}
+/* testimonials */
+
+/* download */
+main .download-app {
+    margin-top: 140px;
+    padding: 0 10%;
+}
+
+main .download-app .text-content {
+    color: #fff;
+}
+
+main .download-app {
+    background-image: url(../assets/download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+main .download-app .text-content p{
+    color: #fff;
+    padding: 12px 0;
+    opacity: 0.8;
+}
+
+main .download-app .btn {
+    margin-top: 32px;
+}
+
+main .download-app .btn a {
+    padding: 14px 40px;
+    background-color: #fff;
+    color: #5D5FEF;  
+    font-weight: 500;
+    border-radius: 12px;
+    text-decoration: none; 
+}
+/* download */
+
+/* contact */
+.contact {
+    margin-top: 140px;
+    padding: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-content {
+    flex: 5;
+    justify-content: center;
+    padding: 32px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.form-content h1 {
+    text-align: center;
+    color: #080C2E;
+}
+
+.form-content form {
+    margin-top: 32px;
+}
+
+.form-content input {
+    width: 100%;
+    font-size: 16px;
+    padding: 16px 18px;
+    margin-bottom: 24px;
+    outline: none;
+    border-radius: 12px;
+    border: 1px solid #E1E3E7;
+}
+
+.form-content textarea {
+    width: 100%;
+    font-size: 16px;
+    padding: 16px 18px;
+    outline: none;
+    border-radius: 12px;
+    border: 1px solid #E1E3E7;
+}
+
+.form-content button {
+    padding: 14px 40px;
+    background-color: #5D5FEF;
+    color: #ffF;  
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top:24px;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+.form-content label {
+    display: block;
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+
+.contact h1 {
+    font-size: 40px;
+    color: #080C2E;
+}
+.contact .text-content h3 {
+    text-content h3
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #F3F4FF;
+    width: fit-content;
+    color: #5D5FEF;  
+    padding: 8px 24px;
+    border: 1px solid #D6D6FF;
+    margin: 0 auto 12px auto; 
+    border-radius: 20px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+aside {
+    flex: 1.8;
+    background-color: #5D5FEF;
+}
+
+aside .profile-card {
+    padding: 32px;
+}
+
+aside .profile-card h3 {
+    color: #fff;
+    font-weight: 500;
+}
+
+aside .text-content {
+    margin-top: 16px;
+}
+
+aside .text-content h4{
+    font-weight: 400;
+    margin: 12px 0;
+    color: #fff;
+}
+
+aside .text-content i {
+    font-size: 24px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+aside .profile-card img {
+    margin-top:32px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    padding: 4px;
+}
+
+/* contact */
+
+/* footer */
+footer .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 10%;
+    flex-wrap: wrap;
+}
+
+footer {
+    border-top: 1px solid #E1E3E7;
+    margin-top: 140px;
+}
+
+footer li {
+    list-style: none;
+    padding: 12px 0;
+}
+
+footer li a{
+    color: #080C2E;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    color: #5D5FEF;
+}
+
+footer ul {
+    padding-top: 12px;
+}
+
+footer p {
+    padding-top: 12px;
+    line-height: 24px;
+    color: #737791;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 25px;
+}
+
+footer .container {
+    border: 1px solid #E1E3E7 !important;
+    padding-bottom: 32px;
+}
+
+footer .copyright {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* footer */
+
+
+/* main */
+
+/* responsive brackpoint */
+@media screen and (max-width: 1900px) {
+    main .trusted-company img {
+        width: 10%;
+    }
+
+    main .features .text-content h1 {
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    main .about-us img {
+        width: 60%;
+        border-radius: 30px;
+    }
+
+    main .about-us .text-content {
+        margin-left: -300px;
+    }
+
+    main .about-us .text-content h1{
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    main .testimonials .text-content h1 {
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    main .download-app .text-content h1 {
+        font-size: 40px;
+    }
+
+    .content-form h1 {
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    .hero .text-content h5 {
+        display: block;
+    }
+
+    .btn-nav .btn-login {
+        padding: 12px 30px;
+        color: #5D5FEF;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        border-radius: 14px;
+        background-color: #F3F4FF;
+        text-align: center;
+        margin-right: 8px;
+    }
+
+    .btn-nav .btn-register {
+        padding: 14px 30px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 14px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #5D5FEF;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    main .trusted-company img {
+        width: 10%;
+    }
+
+    main .features .text-content h1 {
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    main .about-us img {
+        width: 60%;
+        border-radius: 30px;
+    }
+
+    main .about-us .text-content {
+        margin-left: -300px;
+    }
+
+    main .about-us .text-content h1{
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    main .testimonials .text-content h1 {
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    main .download-app .text-content h1 {
+        font-size: 40px;
+    }
+
+    .content-form h1 {
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    .hero .text-content h5 {
+        display: block;
+    }
+
+    .btn-nav .btn-login {
+        padding: 12px 30px;
+        color: #5D5FEF;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        border-radius: 14px;
+        background-color: #F3F4FF;
+        text-align: center;
+        margin-right: 8px;
+    }
+
+    .btn-nav .btn-register {
+        padding: 14px 30px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 14px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #5D5FEF;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    main .trusted-company img {
+        width: 20%;
+    }
+
+    main .features .text-content h1 {
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    main .about-us .text-content  {
+        margin-left: -100px;
+    }
+
+    main .about-us .text-content h1{
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    main .about-us img {
+        width: 70%;
+        border-radius: 30px;
+    }
+
+    main .testimonials .text-content h1 {
+        font-size: 40px;
+        color: #080C2E;
+    }
+    main .download-app .text-content h1 {
+        font-size: 40px;
+    }
+    
+    .content-form h1 {
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .hero .text-content h5 {
+        display: block;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .nav-link {
+        position: absolute;
+        z-index: 100;
+        top: 100%;
+        right: -100%;
+        gap: 32px 0;
+        width: 300px;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        padding: 50px 20px;
+        transition: all .55s ease;
+        background:  white;
+        align-items: start;
+    }
+
+    .nav-link a {
+        display: block;
+    }
+
+    .nav-link.open {
+        right: 0;
+    }
+
+    .btn-nav .btn-register {
+        padding: 14px 30px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 14px;
+        font-size: 16px;
+        display: block;
+        font-weight: 500;
+        background-color: #5D5FEF;
+        text-align: center;
+    }
+    
+    .btn-nav .btn-login {
+        padding: 12px 30px;
+        color: #5D5FEF;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        border-radius: 14px;
+        background-color: #F3F4FF;
+        display: block;
+        text-align: center;
+    }
+    
+    .btn-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 16px 0px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+    
+    main .features .text-content h1 {
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    .nav-link {
+        position: absolute;
+        z-index: 100;
+        top: 100%;
+        right: -100%;
+        gap: 32px 0;
+        width: 300px;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        padding: 50px 20px;
+        transition: all .55s ease;
+        background:  white;
+    }
+
+    .nav-link a {
+        display: block;
+    }
+
+    .nav-link.open {
+        right: 0;
+    }
+
+    .btn-nav .btn-register {
+        padding: 14px 30px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 14px;
+        font-size: 16px;
+        display: block;
+        font-weight: 500;
+        background-color: #5D5FEF;
+        text-align: center;
+    }
+    
+    .btn-nav .btn-login {
+        padding: 12px 30px;
+        color: #5D5FEF;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        border-radius: 14px;
+        background-color: #F3F4FF;
+        display: block;
+        text-align: center;
+    }
+    
+    .btn-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 16px 0px;
+    }
+
+    .hero .btn {
+        flex-direction: column;
+        gap: 18px 0;
+    }
+
+    main .trusted-company img {
+        width: 20%;
+    }
+
+    main .about-us .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main .about-us h3 {
+        margin: 0 auto;
+    }
+
+    main .about-us .text-content  {
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+
+    main .about-us .text-content h1{
+        font-size: 32px;
+        color: #080C2E;
+    }
+
+    main .about-us img {
+        width: 90%;
+        border-radius: 30px;
+    }
+
+    main .testimonials .text-content h1{
+        font-size: 32px;
+        color: #080C2E;
+    }  
+
+    main .download-app .text-content h1 {
+        font-size: 32px;
+    }
+
+    .content-form h1 {
+        font-size: 40px;
+        color: #080C2E;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .hero .text-content h5 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .hero h1{
+        font-size: 42px;
+        color: #080C2E;
+    }
+    
+    main .trusted-company img {
+        width: 30%;
+    }
+
+    main .features .text-content h1 {
+        color: #080C2E;
+        font-size: 30px;
+    }
+
+    main .about-us .text-content  {
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+
+    main .testimonials .text-content h1{
+        font-size: 30px;
+        color: #080C2E;
+    } 
+
+    main .download-app .text-content h1 {
+        font-size: 32px;
+    } 
+
+    .content-form h1 {
+        font-size: 40px;
+        color: #080C2E;
+    }
+    
+    .footer-col {
+        width: 100%;
+    }
+
+    .hero .text-content h5 {
+        display: none;
+    }
+} 
