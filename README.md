@@ -1,5 +1,5 @@
 # Kience
-The technology stack used is:
+The technology stack used is :
 - HTML
 - CSS
 - Javascript
