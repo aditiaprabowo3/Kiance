@@ -4,4 +4,4 @@ The technology stack used is :
 - CSS
 - Javascript
 
-![Screen Shot](https://github.com/aditiaprabowo3/Kiance/blob/main/asses/ss.png)
+![Screen Shot](https://github.com/aditiaprabowo3/Kiance/blob/main/assets/ss.png)
