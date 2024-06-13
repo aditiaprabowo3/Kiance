@@ -5,4 +5,3 @@ The technology stack used is :
 - Javascript
 
 ![Screen Shot](https://github.com/aditiaprabowo3/Kiance/blob/main/asses/ss.png)
-
