@@ -1,4 +1,4 @@
-# Kience
+# Kience App
 The technology stack used is :
 - HTML
 - CSS
