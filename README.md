@@ -1,4 +1,4 @@
-# Kience Apps
+# Kience Web Design
 
 The tech stack used is :
 - HTML5
