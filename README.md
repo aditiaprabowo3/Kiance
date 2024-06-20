@@ -1,4 +1,5 @@
-# Kience App
+# Kience Apps
+
 The tech stack used is :
 - HTML5
 - CSS3
