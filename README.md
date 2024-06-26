@@ -1,7 +1,7 @@
 # Kience Web Design
 
 The tech stack used is :
-- HTML5
+- HTML
 - CSS3
 - Javascript
 - Swiperjs (https://swiperjs.com/)
