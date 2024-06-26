@@ -2,7 +2,7 @@
 
 The tech stack used is :
 - HTML
-- CSS3
+- CSS
 - Javascript
 - Swiperjs
 
